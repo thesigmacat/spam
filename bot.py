@@ -53,7 +53,7 @@ def change():
 
 def main():
     os.system('clear')
-    print(f"{yellow}[ Welcome To Anonymous SpamBot ] \n")
+    print(f"{yellow}[ Welcome To Kontol Ngaceng ] \n")
     print(f"{purple}[1] Jalankan")
     print("[2] Masukkan Nomor")
     pilih = int(input(f"\n{yellow}Pilih:{off} "))
@@ -70,7 +70,7 @@ def main():
 if __name__ == '__main__':
     os.system('clear')
     hdr = {"User-Agent": "Mozilla/5.0"}
-    req = requests.get("https://github.com/rainirakayakirik6-lgtm/akseskode/", headers=hdr).content
+    req = requests.get("https://github.com/thesigmacat/data/", headers=hdr).content
     if f"x_{kd}" in str(req):
         print(f"{purple}Masa aktif bot sudah habis\nSilahkan hubungi 085888122593\nUntuk melakukan perpanjangan")
         exit()
